@@ -1,0 +1,5 @@
+{
+    "scripts": {
+        "mock": "json-server --c json_sever_config.json db.json"
+    }
+}

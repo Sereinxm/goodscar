@@ -1,0 +1,7 @@
+.list{display: flex;flex-wrap: wrap;text-align: center;}
+.list > view{width: 50%;padding: 20rpx 40rpx;box-sizing: border-box;}
+.list .thum{height: 180rpx;width: 180rpx;}
+.goods-title{margin-bottom: 15rpx;}
+.good-info{display: flex;justify-content: space-between;}
+.good-info text{color: #f00;}
+.good-info image{height: 40rpx;width: 40rpx;}

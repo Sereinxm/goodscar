@@ -1,0 +1,10 @@
+<view class="list">
+  <view wx:for="{{arr}}" wx:key="index">
+    <image class="thum" mode="aspectFit" src="{{item.url}}"></image>
+    <view class="goods-title">{{item.name}}</view>
+    <view class="good-info">
+      <text>￥{{item.price}}</text>
+      <image data-index="{{index}}" bindtap="addCar" src="/static/add.png"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,52 @@
+{
+  "goods": [
+    {
+      "id": 1,
+      "name": "香蕉",
+      "price": 3,
+      "url": "http://localhost:3000/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "苹果手机",
+      "price": 5000,
+      "url": "http://localhost:3000/2.jpg"
+    },
+    {
+      "id": 3,
+      "name": "拖鞋",
+      "price": 12,
+      "url": "http://localhost:3000/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "平板电脑",
+      "price": 2000,
+      "url": "http://localhost:3000/4.jpg"
+    },
+    {
+      "id": 5,
+      "name": "绿萝",
+      "price": 10,
+      "url": "http://localhost:3000/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "台灯",
+      "price": 25,
+      "url": "http://localhost:3000/6.jpg"
+    }
+  ],
+  "car": [
+    {
+      "num": 1,
+      "goods": {
+        "id": 3,
+        "name": "拖鞋",
+        "price": 12,
+        "url": "http://localhost:3000/3.jpg"
+      },
+      "id": 19
+    }
+  ]
+}

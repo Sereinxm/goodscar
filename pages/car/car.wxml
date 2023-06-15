@@ -1,0 +1,32 @@
+<view class="wrap">
+  <view class="car-title">商品库存有限，请尽快下单！</view>
+  <checkbox-group>
+    <view wx:for="{{carArr}}" wx:key="index" class="car-item">
+      <checkbox color="orange" value="{{index}}"></checkbox>
+      <image src="{{item.goods.url}}"></image>
+      <view>
+        <view>{{item.goods.name}}</view>
+        <view class="car-tools">
+          <text>￥{{item.goods.price}}</text>
+          <button class="down-btn">-</button>
+          <input type="text" model:value="{{item.num}}"/>
+          <button>+</button>
+          <image src="/static/del.png"></image>
+        </view>
+      </view>
+    </view>
+  </checkbox-group>
+  <view class="total">
+    <label>
+      <checkbox></checkbox>全选
+    </label>
+    <view>
+      合计：<text>￥415.5</text>
+    </view>
+    <button>去结算(4)</button>
+  </view>
+</view>
+
+
+
+

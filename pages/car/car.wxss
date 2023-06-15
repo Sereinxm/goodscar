@@ -1,0 +1,16 @@
+.wrap{padding: 30rpx;}
+.car-title{background-color: #ccc;padding: 5rpx;margin-bottom: 50rpx;}
+.car-item{display: flex;align-items: center;margin-bottom: 50rpx;margin-bottom: 20rpx;}
+.car-item > view{flex-grow: 1;}
+.car-item > image{height: 130rpx;width: 130rpx;margin-right: 5rpx;}
+.car-item text{color: red;font-size: 35rpx;}
+.car-tools{display: flex;align-items: center;margin-top: 15rpx;}
+.car-tools image{width: 50rpx;height: 60rpx;}
+.car-item button{padding: 0;width:70rpx !important;margin: 0 !important;}
+.car-tools .down-btn{margin-left: auto !important;}
+.car-item input{width: 70rpx;background-color: #ccc;text-align: center;}
+.total{display: flex;align-items: center;justify-content: space-between;margin-top: 150rpx;}
+.total label{position: relative;top: 10rpx;}
+.total button{width: 240rpx !important;background-color: rgb(255,93,0);color: #fff;margin: 0 !important;padding: 0 !important;height: 100rpx !important;line-height: 100rpx;border-radius: 50rpx !important;}
+.total text{color: rgb(255,93,0);}
+
