@@ -1,7 +1,8 @@
 # goodscar
 
 # 1，开发环境搭建
-1，安装nodejs-14
+
+在car-server文件夹下运行下列命令
 2，配置npm镜像
 
 ```js
